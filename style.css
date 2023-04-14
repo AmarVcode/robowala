@@ -1,0 +1,15 @@
+#logo{
+max-width: 5rem;
+}
+
+.navbar{
+    background: rgb(0, 0, 0) !important;
+}
+
+.navbar a{
+    color: rgb(255, 255, 255)!important;
+}
+
+.navbar .navbar-toggler{
+    background-color: white;;
+}
