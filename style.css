@@ -45,7 +45,24 @@ max-width: 5rem;
   #desktop{
 min-height: 100vh;
 display: flex;
+align-items: center;
+text-align: center;
   }
+
+  #desktop > div{
+    color: white;
+    max-width: 700px;
+    margin:auto;
+  }
+
+.gap{
+  margin-top: 5rem;
+}
+
+#desktop p{
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
 
 .flex-content{
   display: flex;
@@ -78,6 +95,38 @@ display: flex;
   line-height: 1.8;
 }
 
+.flex-content-2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.flex-content-2 > div{
+  max-width: 50%;;
+}
+
+.flex-content-2 > div:nth-child(1){
+  padding-right: 2rem;
+}
+
+.flex-content-2 > div:nth-child(2){
+  padding-left: 2rem;
+}
+
+.flex-content-2 img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.flex-content-2 p{
+  padding-block: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+
 .extra-content{
   padding: 1rem;
 }
@@ -108,6 +157,11 @@ text-align: center;
   padding: 1rem;
 }
 
+.center{
+  text-align: center;
+  padding-block: 2rem;
+}
+
 @media screen and (max-width:800px){
   .flex-content{
     flex-direction: column-reverse;
@@ -117,8 +171,20 @@ text-align: center;
 max-width: 100%;
 padding: 1rem 0rem !important;
   }
+
+  .flex-content-2{
+    flex-direction: column;
+  }
+
+  .flex-content-2 >div{
+max-width: 100%;
+padding: 1rem 0rem !important;
+  }
 .card{
 width: 150px;
 padding: 0px !important;
+}
+.gap{
+  margin-top: 0rem;
 }
 }
