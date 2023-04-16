@@ -139,7 +139,7 @@ text-align: center;
 .logos{
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   padding: 1rem;
 }
@@ -160,6 +160,31 @@ text-align: center;
 .center{
   text-align: center;
   padding-block: 2rem;
+}
+
+.points h5 span{
+  color: red !important;
+}
+
+.points h5{
+  padding: .5rem;
+}
+
+.card-2{
+  display: grid;
+  justify-content: center;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.card-2 h5{
+  font-size: 1rem;
+}
+
+.card-2 img{
+  width: 100%;
 }
 
 @media screen and (max-width:800px){
