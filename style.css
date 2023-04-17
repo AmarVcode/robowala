@@ -266,7 +266,7 @@ footer p{
 .main-btn{
   display: block;
   width: fit-content;
-  padding: .8em 3em;
+  padding: .8rem 3rem;
   background-color: gold;
   text-decoration: none;
   color: black;
