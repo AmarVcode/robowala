@@ -1,3 +1,7 @@
+*{
+  transition: 300ms;
+}
+
 #logo{
 max-width: 5rem;
 }
@@ -188,6 +192,10 @@ text-align: center;
 }
 
 @media screen and (max-width:800px){
+
+  footer{
+    grid-template-columns: 50% 50% !important;
+  }
   .flex-content{
     flex-direction: column-reverse;
   }
@@ -209,7 +217,64 @@ padding: 1rem 0rem !important;
 width: 150px;
 padding: 0px !important;
 }
+
+.card-2{
+  width: 120px;
+  padding: 0px !important;
+  }
 .gap{
   margin-top: 0rem;
 }
+}
+
+footer{
+  background: black;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+footer >div{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-block: 1rem;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer img{
+  max-width: 5rem;
+}
+
+footer h4{
+  color: white;
+  padding-block: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+footer p{
+  color: white;
+}
+
+.main-btn{
+  display: block;
+  width: fit-content;
+  padding: .8em 3em;
+  background-color: gold;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+.main-btn:hover{
+background-color: red;
+color: white;
 }
