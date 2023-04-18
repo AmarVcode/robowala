@@ -171,7 +171,8 @@ text-align: center;
 }
 
 .points h5{
-  padding: .5rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .card-2{

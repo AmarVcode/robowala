@@ -1,12 +1,11 @@
-
-
-  <?php
+<?php
 $name = $_POST["name"];
   $email = $_POST["email"];
+  $bussiness = $_POST["bussiness"];
   $message = $_POST["message"];
 
-  $to = "sales@mnitsolutions.in";
-  $subject = "New contact form submission";
+  $to = "info@robowale.com";
+  $subject = "new Message form Robowale";
   $body = "Name: $name\nEmail: $email\nMessage: $message";
 
   if (mail($to, $subject, $body)) {
