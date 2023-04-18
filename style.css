@@ -278,3 +278,7 @@ footer p{
 background-color: red;
 color: white;
 }
+
+form input,button{
+  margin-block: .5rem;
+}
