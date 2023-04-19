@@ -293,3 +293,8 @@ color: white;
 form input,button{
   margin-block: .5rem;
 }
+
+.unorder li{
+  padding-block: .5rem;
+  font-weight: 600;
+}
