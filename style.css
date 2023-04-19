@@ -298,3 +298,17 @@ form input,button{
   padding-block: .5rem;
   font-weight: 600;
 }
+
+.bold{
+  font-weight: bold;
+}
+
+.whatsapp{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.whatsapp img{
+  width:5rem;
+}
