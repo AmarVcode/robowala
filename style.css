@@ -15,6 +15,10 @@ max-width: 5rem;
     z-index: 1000;
 }
 
+main{
+  margin-top: 100px;
+}
+
 .navbar a{
     color: rgb(255, 255, 255)!important;
 }
