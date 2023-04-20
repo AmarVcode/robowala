@@ -312,3 +312,17 @@ form input,button{
 .whatsapp img{
   width:5rem;
 }
+
+.imgbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.imgbox img{
+  height: 250px;
+  width: auto;
+  margin: 10px;
+}
